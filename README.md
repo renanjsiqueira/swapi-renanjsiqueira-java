@@ -21,33 +21,38 @@ Star Wars Api Rest Fork Project
     **Para consumir  O serviço da api **
 1 - Adicionar um planeta (com nome, clima e terreno)
     • as Chamadas de API deve ser no formato JSON(Application/Json) "POST" para URL <host>/api/planets/
-    ex:
-   {
-	"name": "Tatooine",
-	"climate": "arid",
-	"terrain": "desert"}
+    
+	
+       {
+        "name": "Tatooine",    
+        "climate": "arid",      
+        "terrain": "desert"       
+        }
+	
+	
+	
     obs: caso o registro ja exista ele vai atualizar com as novas informações passadas,
     se o planeta for encontrado na api do swapi vai adicionar a quantidade de apariçoes de filmes,
     lembrando que a busca é pelo nome do planeta.
 	
 
 2 - Listar planetas do banco de dados
-    • "GET" para URL <host>/api/planets
+    • "GET" para URL /api/planets
 
 3 - Listar planetas da API do Star Wars
-    • "GET" para URL <host>/api/swapi/planets
+    • "GET" para URL /api/swapi/planets
 
 4 - Buscar por nome no banco de dados
-    •  "GET" para URL <host>/api/planets/name/<nome>
+    •  "GET" para URL /api/planets/name/"nomedoplaneta"
 
 5 - Buscar por ID no banco de dados
-    •  "GET" para URL <host>/api/planets/<id>
+    •  "GET" para URL /api/planets/"id registro"
 
 6 - Remover planeta do banco de dados
-    • "DELETE" para URL <host>/api/planets/<id>
+    • "DELETE" para URL /api/planets/"id registro"
 
 7 - Atualizar planeta do banco de dados
-    • deve ser feito uma requisição PUT para <host>/api/planets/<id>
+    • deve ser feito uma requisição PUT para /api/planets/"id registro"
 
 
     obs 1: os códigos e pacote desenvolvido por min da Api Rest esta em "com.apisw"
