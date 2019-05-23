@@ -5,12 +5,16 @@ Star Wars Api Rest Fork Project
   ***Requisitos para importar o projeto***
         • uma IDE (IntelliJ IDEA , Eclipse ou Spring Tool IDE)
         obs: o projeto foi desenvolvido utilizando IntelliJ IDEA
+	
         •Java 8
+	
         •Maven
+	
         •Spring Boot
+	
         •um Container/instância de banco de dados NoSql  Mongo DB 3.4+
-        obs:para configurar a conexão ao Mongo DB é no Application.properties,
-        por padrão está no perfil de integração.
+	
+        obs:para configurar a conexão ao Mongo DB é no Application.properties, por padrão está no perfil de integração.
         obs :a api está sem autenticação foi realizado os testes usando o PostMan
 
 
@@ -25,6 +29,7 @@ Star Wars Api Rest Fork Project
     obs: caso o registro ja exista ele vai atualizar com as novas informações passadas,
     se o planeta for encontrado na api do swapi vai adicionar a quantidade de apariçoes de filmes,
     lembrando que a busca é pelo nome do planeta.
+	
 
 2 - Listar planetas do banco de dados
     • "GET" para URL <host>/api/planets
