@@ -18,11 +18,11 @@ Star Wars Api Rest Fork Project
         obs :a api está sem autenticação foi realizado os testes usando o PostMan
 
 
-    **Para consumir  O serviço da api **
-1 - Adicionar um planeta (com nome, clima e terreno)
-    • as Chamadas de API deve ser no formato JSON(Application/Json) "POST" para URL <host>/api/planets/
-    
-	
+    **Para consumir  O serviço da api  **
+    	• as Chamadas de API deve ser no formato JSON(Application/Json)
+1 - Adicionar um planeta (com nome, clima e terreno) 
+	•"POST" para URL <host>/api/planets/
+   	
        {
         "name": "Tatooine",    
         "climate": "arid",      
